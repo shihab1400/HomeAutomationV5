@@ -1,5 +1,5 @@
 
-showMainPage();
+//showMainPage();
 // ========== Enhanced Authentication System with ESP32 + Timer Functionality ==========
 const MQTT_BROKER = "wss://1494998b45794f319ee0dae0290dab09.s1.eu.hivemq.cloud:8884/mqtt";
 const MQTT_USER = "smartMultiPlug";
@@ -778,4 +778,5 @@ document.addEventListener("DOMContentLoaded", function () {
    updateLastUpdateTime();
    updateSensorDisplay(null, null); // Initialize with no data
 });
+
 
